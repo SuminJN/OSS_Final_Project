@@ -1,9 +1,9 @@
-1__What does this project do?__
+1 __What does this project do?__
 
-2__Why is this project useful?__
+2 __Why is this project useful?__
 
-3__How do I get started?__
+3 __How do I get started?__
 
-4__Where can I get more help, if I need it?__
+4 __Where can I get more help, if I need it?__
 
-5__Presentation Video Link__
+5 __Presentation Video Link__
