@@ -4,14 +4,12 @@
 
 * This project is to implement the game and run the game on Raspberry pi.
 * It's a game of avoiding bombs falling from the sky.
-* Randomly generated bombs fall from top to bottom. 
-* The game ends when the character touches the bomb.
 
 * * *
 
 # __Why is this project useful?__
 
-* You can use pygame to implement your own game.
+* You can use Pygame to implement the game you want.
 * You can use Raspberry pi as your own game console.
 * If you have a monitor and keyboard, you can enjoy the game anywhere!
 
