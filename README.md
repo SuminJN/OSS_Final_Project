@@ -1,6 +1,6 @@
 # __Final project of OSS Lab(HGU, 2021-1)__    
 __Project name: Implementing a game using pygame in Raspberry pi__
-<p align="center"><img src="gameEx.png" width="30%" height="30%" title="px(픽셀) 크기 설정" alt="gameEx"></img>
+<p align="center"><img src="gameEx.png" width="40%" height="50%" title="px(픽셀) 크기 설정" alt="gameEx"></img>
 
 * * *
 
