@@ -4,7 +4,7 @@ __Project name: Implementing a game using pygame in Raspberry pi__
 
 * * *
 
-# __Game Description__
+# __Code Description__
 
 #### 1. __Setting bomb to object__   
 <img src="bomb.png" width="15%" height="15%" title="px(픽셀) 크기 설정" alt="bomb"></img>
@@ -50,7 +50,8 @@ for event in pygame.event.get():
              elif event.key == pygame.K_RIGHT:
                  character_dx = 0
 ```
-#### 4. __Output End Message "Game Over"__  
+#### 4. __Print End Message "Game Over"__   
+<img src="gameover.png" width="50%" height="15%" title="px(픽셀) 크기 설정" alt="gameover"></img>
 ```python 
 msg = game_font.render("Game Over", True, (255, 100, 100))
 msg_rect = msg.get_rect(center=(int(size[0] / 2), int(size[1] / 3)))
