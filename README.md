@@ -1,4 +1,4 @@
-<img src="game.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="bombgame"></img>
+<p align="center"><img src="gameEx.png" width="30%" height="30%" title="px(픽셀) 크기 설정" alt="gameEx"></img>
 
 # __What does this project do?__
 
