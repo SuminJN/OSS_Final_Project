@@ -1,4 +1,6 @@
-## __What does this project do?__
+<img src="game.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="bombgame"></img>
+
+# __What does this project do?__
 
 * This project is to implement the game and run the game on Raspberry pi.
 * It's a game of avoiding bombs falling from the sky.
@@ -7,7 +9,7 @@
 
 * * *
 
-## __Why is this project useful?__
+# __Why is this project useful?__
 
 * You can use pygame to implement your own game.
 * You can use Raspberry pi as your own game console.
@@ -15,31 +17,27 @@
 
 * * *
 
-## __How do I get started?__
+# __How do I get started?__
 
 1. Prepare Pygame code and Raspberry pi.
-2. At the Raspberry Pi Terminal, enter the code below to install the pygame package.
-
+2. At the Raspberry pi Terminal, enter the code below to install the pygame module.
+```
 	$ sudo apt-get install python-pygame
-        
+```
 3. After installation, enter the code below to play the game.
-
+```
 	$ python bomb_game.py
-
+```
 4. Enjoy the game!
 
 * * *
 
-## __Where can I get more help, if I need it?__
+# __Where can I get more help, if I need it?__
 
 * For more help, please send me email. 21900635@handong.edu
 
 * * *
 
-## __Presentation Video Link__
+# __Presentation Video Link__
 
 * * *
-
-	$ make
-
-
