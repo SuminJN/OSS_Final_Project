@@ -1,5 +1,6 @@
 # __Final project of OSS Lab(HGU, 2021-1)__    
-__Project name: Implementing a game using pygame in Raspberry pi__
+__Project name: Implementing a game using pygame in Raspberry pi__   
+__Video Link: https://www.youtube.com/watch?v=BqsJ877LrNQ__   
 <p align="center"><img src="gameEx.png" width="40%" height="50%" title="px(픽셀) 크기 설정" alt="gameEx"></img>
 
 * * *
@@ -94,11 +95,5 @@ pygame.time.delay(2000)
 # __Where can I get more help, if I need it?__
 
 * For more help, please send me email. 21900635@handong.edu
-
-* * *
-
-# __Presentation Video Link__
-
-* https://www.youtube.com/watch?v=BqsJ877LrNQ
 
 * * *
