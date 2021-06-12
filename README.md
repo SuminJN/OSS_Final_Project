@@ -20,12 +20,12 @@
 1. Prepare Pygame code and Raspberry pi.
 2. At the Raspberry Pi Terminal, enter the code below to install the pygame package.
 
-	sudo apt-get install python-pygame
+	$ sudo apt-get install python-pygame
         
 3. After installation, enter the code below to play the game.
 
-	python bomb_game.py
-    
+	$ python bomb_game.py
+
 4. Enjoy the game!
 
 * * *
@@ -38,6 +38,8 @@
 
 ## __Presentation Video Link__
 
-
-
 * * *
+
+	$ make
+
+
