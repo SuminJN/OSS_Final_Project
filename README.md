@@ -4,6 +4,62 @@ __Project name: Implementing a game using pygame in Raspberry pi__
 
 * * *
 
+# __Game Description__
+
+#### 1. __Setting bomb to object__   
+<img src="bomb.png" width="15%" height="15%" title="px(픽셀) 크기 설정" alt="bomb"></img>
+```python
+bomb_image = pygame.image.load('bomb.png')
+bomb_image = pygame.transform.scale(bomb_image, (60, 60))
+bombs = []
+
+for i in range(7):
+    rect = pygame.Rect(bomb_image.get_rect())
+    rect.left = random.randint(0, size[0])
+    rect.top = -100
+    dy = random.randint(3, 9)
+    bombs.append({'rect': rect, 'dy': dy})
+```
+
+#### 2. __Setting character to object__   
+<img src="character.png" width="15%" height="15%" title="px(픽셀) 크기 설정" alt="character"></img>
+```python
+character_image = pygame.image.load('character.png')
+character_image = pygame.transform.scale(character_image, (100, 100))
+character = pygame.Rect(character_image.get_rect())
+
+character.left = size[0] // 2 - character.width // 2
+character.top = size[1] - character.height - 180
+character_dx = 0
+```
+
+#### 3. __Move character with left and right keys__   
+```python
+for event in pygame.event.get():
+         if event.type == pygame.QUIT:
+             done = True
+             break
+         elif event.type == pygame.KEYDOWN:
+             if event.key == pygame.K_LEFT:
+                 character_dx = -7
+             elif event.key == pygame.K_RIGHT:
+                 character_dx = 7
+         elif event.type == pygame.KEYUP:
+             if event.key == pygame.K_LEFT:
+                 character_dx = 0
+             elif event.key == pygame.K_RIGHT:
+                 character_dx = 0
+```
+#### 4. __Output End Message "Game Over"__  
+```python 
+msg = game_font.render("Game Over", True, (255, 100, 100))
+msg_rect = msg.get_rect(center=(int(size[0] / 2), int(size[1] / 3)))
+screen.blit(msg, msg_rect)
+pygame.display.update()
+pygame.time.delay(2000)
+```
+* * *
+
 # __What does this project do?__
 
 * This project is to implement the game and run the game on Raspberry pi.
