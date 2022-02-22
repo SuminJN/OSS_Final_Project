@@ -93,6 +93,6 @@ pygame.time.delay(2000)
 
 # __Where can I get more help, if I need it?__
 
-* For more help, please send me email. 21900635@handong.edu
+* For more help, please send me email. wjstnals1211@handong.ac.kr
 
 * * *
